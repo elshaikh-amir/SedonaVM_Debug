@@ -1,0 +1,6 @@
+#ifndef SEDONAC_SEDONA_PLATFORM_H
+#define SEDONAC_SEDONA_PLATFORM_H
+
+#define PLATFORM_ID "debug win32-1.2.28"
+
+#endif

@@ -1,0 +1,29 @@
+
+// Eventkind | 1 byte
+#define VM_DISCONNECTED 100 // Never sent across JDWP
+#define VM_START_INIT 90 // JDWP.EventKind.VM_INIT
+#define THREAD_DEATH_END 7 // JDWP.EventKind.THREAD_END
+#define SINGLE_STEP 1
+#define BREAKPOINT 2
+#define FRAME_POP 3
+#define EXCEPTION 4
+#define USER_DEFINED 5
+#define THREAD_START 6
+//#define THREAD_END 7
+#define CLASS_PREPARE 8
+#define CLASS_UNLOAD 9
+#define CLASS_LOAD 10
+#define FIELD_ACCESS 20
+#define FIELD_MODIFICATION 21
+#define EXCEPTION_CATCH 30
+#define METHOD_ENTRY 40
+#define METHOD_EXIT 41
+//#define VM_INIT 90
+#define VM_DEATH 99
+
+// misc
+#define MONITOR_WAITED 46
+#define MONITOR_WAIT 45
+#define MONITOR_CONTENDED_ENTERED 44
+#define MONITOR_CONTENDED_ENTER 43
+#define METHOD_EXIT_WITH_RETURN_VALUE 42

@@ -1,0 +1,2 @@
+svm.exe --plat
+pause

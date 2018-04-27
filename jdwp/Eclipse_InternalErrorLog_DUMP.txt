@@ -1,0 +1,37 @@
+!ENTRY org.eclipse.jdt.debug 4 125 2017-12-06 00:46:16.674
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+com.sun.jdi.InternalException: Got invalid data:java.io.EOFException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultIOExceptionHandler(MirrorImpl.java:310)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.allThreads(VirtualMachineImpl.java:437)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.initializeState(JDIDebugTarget.java:583)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.initialize(JDIDebugTarget.java:544)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.<init>(JDIDebugTarget.java:367)
+	at org.eclipse.jdt.debug.core.JDIDebugModel$1.run(JDIDebugModel.java:201)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.debug.core.JDIDebugModel.newDebugTarget(JDIDebugModel.java:205)
+	at org.eclipse.jdt.debug.core.JDIDebugModel.newDebugTarget(JDIDebugModel.java:152)
+	at org.eclipse.jdt.internal.launching.SocketAttachConnector.connect(SocketAttachConnector.java:146)
+	at org.eclipse.jdt.internal.launching.JavaRemoteApplicationLaunchConfigurationDelegate.launch(JavaRemoteApplicationLaunchConfigurationDelegate.java:85)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2017-12-06 00:46:16.732
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+com.sun.jdi.InternalException: Got invalid data:java.io.EOFException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultIOExceptionHandler(MirrorImpl.java:310)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.allThreads(VirtualMachineImpl.java:437)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.resetThreadEventFlags(VirtualMachineImpl.java:956)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.resume(VirtualMachineImpl.java:868)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.resume(JDIDebugTarget.java:1355)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.resume(JDIDebugTarget.java:1327)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.handleVMStart(JDIDebugTarget.java:502)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:164)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:100)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:250)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
