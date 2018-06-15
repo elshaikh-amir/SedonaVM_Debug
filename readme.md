@@ -1,7 +1,7 @@
 Sedona Debug Virtual Machine
 ================================================
 
-For original source codes: http://www.sedonadev.org/
+For original source codes: https://sedona-alliance.org/archive/doc/index.html
 
 **Aim:**
 - Enable smart debugging for Sedona Applications. (Use eclipse or any IDE with a java-debugger to debug a sedona application)
